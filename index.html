@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>钢结构快速建模、深化设计、施工模拟成套技术研发</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            width: 90%;
+            max-width: 800px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        .plan-section {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        .plan-section h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .plan-item {
+            background: #f8f9fa;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .plan-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .plan-item h3 {
+            color: #2980b9;
+            margin-top: 0;
+        }
+        .plan-item p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .time-estimate {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        .nav-link {
+            display: inline-block;
+            background: linear-gradient(45deg, #3498db, #2980b9);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+        }
+        .nav-link:hover {
+            background: linear-gradient(45deg, #2980b9, #3498db);
+            transform: translateY(-3px);
+            box-shadow: 0 7px 20px rgba(52, 152, 219, 0.5);
+        }
+        .footer {
+            margin-top: 30px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>钢结构快速建模、深化设计、施工模拟成套技术研发</h1>
+        
+        <div class="plan-section">
+            <h2>开发计划</h2>
+            <div class="plan-item">
+                <h3>1. 界面优化</h3>
+                <p>对现有用户界面进行视觉和交互设计优化，提升用户体验。</p>
+                <p class="time-estimate">预计耗时：1-2天</p>
+            </div>
+            <div class="plan-item">
+                <h3>2. 界面实现</h3>
+                <p>根据优化后的UI设计稿，修改和重构前端代码，实现新的界面布局和交互逻辑。</p>
+                <p class="time-estimate">预计耗时：5-7天</p>
+            </div>
+            <div class="plan-item">
+                <h3>3. 功能集成</h3>
+                <p>开发接口或模块，实现与有限元分析(FEM)程序的数据交互和功能调用。</p>
+                <p class="time-estimate">预计耗时：1-2天</p>
+            </div>
+            <div class="plan-item">
+                <h3>4. 数据处理</h3>
+                <p>开发数据读取模块，能够解析和处理来自不同来源的钢结构建模数据。</p>
+                <p class="time-estimate">预计耗时：2-5天</p>
+            </div>
+            <div class="plan-item">
+                <h3>5. 模型生成</h3>
+                <p>将处理后的钢结构数据导入Tekla Structures软件，自动生成精确的三维模型。</p>
+                <p class="time-estimate">预计耗时：7-14天</p>
+            </div>
+        </div>
+
+        <a href="1-mainpage.html" class="nav-link">进入主界面</a>
+
+        <div class="footer">
+            <p>中铁装配 - Tekla技术研发项目</p>
+        </div>
+    </div>
+</body>
+</html>
